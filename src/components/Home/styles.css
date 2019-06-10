@@ -1,0 +1,23 @@
+.home-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-container {
+  display: flex;
+  flex: 0.3;
+}
+
+.main-container {
+  display: flex;
+  flex: 0.7;
+}
+
+.main-container-switch {
+  top: 10%;
+  left: 90%;
+  position: absolute;
+  z-index: 1;
+}

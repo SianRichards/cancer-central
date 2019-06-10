@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  padding: 15px;
+  margin: 15px;
+  width: 80%;
+  border: 0.5px solid lightslategrey;
+}

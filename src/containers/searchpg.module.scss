@@ -1,0 +1,29 @@
+
+
+button {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 5px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    color: white;
+}
+.cards {
+    display: flex;
+    height: auto;
+    width: auto;
+    // flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex: 1;
+
+}
